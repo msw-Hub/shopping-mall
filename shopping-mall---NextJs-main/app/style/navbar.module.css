@@ -1,0 +1,151 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dacffa;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: 3px solid gray;
+}
+
+.navbar-table {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 33%;
+}
+
+.navbar-a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 10px;
+  border-radius: 10px;
+  transition: 0.15s all ease-in-out;
+}
+
+.navbar-a:hover {
+  font-weight: 700;
+  background-color: #c7bde2;
+}
+
+.navbar-title {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-size: 25px;
+  margin: 10px;
+  margin-right: 30px;
+  transition: 0.3s all ease-in-out;
+}
+
+.navbar-title:hover {
+  transform: scale(1.15);
+}
+
+.navber-login-sginup-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navber-login-sginup-search a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 10px;
+  border-radius: 10px;
+  transition: 0.15s all ease-in-out;
+}
+
+.navber-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 10px;
+  border-radius: 10px;
+  transition: 0.15s all ease-in-out;
+  background-color: #dacffa;
+  border: 0px solid #dacffa;
+  font-weight: 500;
+  font-family: "Noto Sans KR";
+  height: 40px;
+}
+.navber-login span {
+  height: 26px;
+}
+
+.navber-login:hover {
+  font-weight: 700;
+  background-color: #c7bde2;
+  cursor: pointer;
+}
+
+.navber-login-sginup-search {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navber-login-sginup-search a:hover {
+  font-weight: 700;
+  background-color: #c7bde2;
+}
+
+.search-item {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  width: 300px;
+  padding: 10px 15px;
+  margin: 0px 10px;
+  border-radius: 20px;
+  transition: 0.3s all ease-in-out;
+}
+
+.session-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.session-login span {
+  height: 15px;
+  font-family: "Noto Sans KR";
+  font-weight: 500;
+}
+
+.search-icon button {
+  border-radius: 33%;
+  top: 8px;
+  right: 20px;
+  position: absolute;
+  border: 0px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.search-icon button:hover {
+  cursor: pointer;
+}
+
+.search-icon {
+  position: relative;
+}
+
+.search:focus {
+  width: 500px;
+}

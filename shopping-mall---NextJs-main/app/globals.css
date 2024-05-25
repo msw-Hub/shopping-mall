@@ -1,0 +1,103 @@
+@import url("./style/reset.module.css");
+@import url("./style/navbar.module.css");
+@import url("./style/login.module.css");
+@import url("./style/signup.module.css");
+@import url("./style//pm.module.css");
+@import url("./style//create.module.css");
+@import url("./style//buy.module.css");
+@import url("./style//basket.module.css");
+
+html {
+  font-family: "Roboto", "Noto Sans KR";
+  background-color: #fcfcfe;
+}
+
+.main-pm-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+}
+
+.pm-Link {
+  margin-left: 80px;
+}
+.pm-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pm-list img {
+  margin: 20px;
+  border: 3px solid gray;
+  border-radius: 20px;
+  width: 250px;
+  height: 250px;
+  transition: 0.2s all ease-in-out;
+}
+
+.pm-list img:hover {
+  width: 270px;
+  height: 270px;
+  margin: 10px;
+}
+
+.pm-list h4 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.pm-list span {
+  font-size: 20px;
+  font-family: 900;
+}
+
+.category-pm-frame {
+  margin-top: 80px;
+}
+
+.category {
+  z-index: 100;
+  background: #dacffa;
+  top: 100px;
+  left: 10px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 3px solid gray;
+  border-radius: 10px;
+}
+
+.category span {
+  display: block;
+  width: 120px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 64.16px;
+  padding: 15px 5px;
+  transition: 0.15s all ease-in-out;
+}
+
+.category span:hover {
+  font-weight: 900;
+  background-color: #c7bde2;
+  cursor: pointer;
+}
+
+.category-select2 {
+  font-weight: 900;
+  background-color: #c7bde2;
+}
+
+.no-result-message {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 24px;
+}
